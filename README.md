@@ -1,10 +1,10 @@
 # Assign statuses to Eloquent models
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/laravel-model-status.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-model-status)
-[![Build Status](https://img.shields.io/travis/spatie/laravel-model-status/master.svg?style=flat-square)](https://travis-ci.org/spatie/laravel-model-status)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/peteleco/laravel-model-status.svg?style=flat-square)](https://packagist.org/packages/peteleco/laravel-model-status)
+[![Build Status](https://img.shields.io/travis/peteleco/laravel-model-status/master.svg?style=flat-square)](https://travis-ci.org/peteleco/laravel-model-status)
 [![StyleCI](https://styleci.io/repos/119671555/shield?branch=master)](https://styleci.io/repos/119671555)
-[![Quality Score](https://img.shields.io/scrutinizer/g/spatie/laravel-model-status.svg?style=flat-square)](https://scrutinizer-ci.com/g/spatie/laravel-model-status)
-[![Total Downloads](https://img.shields.io/packagist/dt/spatie/laravel-model-status.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-model-status)
+[![Quality Score](https://img.shields.io/scrutinizer/g/peteleco/laravel-model-status.svg?style=flat-square)](https://scrutinizer-ci.com/g/peteleco/laravel-model-status)
+[![Total Downloads](https://img.shields.io/packagist/dt/peteleco/laravel-model-status.svg?style=flat-square)](https://packagist.org/packages/peteleco/laravel-model-status)
 
 Imagine you want to have an Eloquent model hold a status. It's easily solved by just adding a `status` field to that model and be done with it. But in case you need a history of status changes or need to store some extra info on why a status changed, just adding a single field won't cut it. 
 
@@ -34,7 +34,7 @@ $latestPendingStatus->reason; // returns 'needs verification'
 You can install the package via composer:
 
 ```bash
-composer require spatie/laravel-model-status
+composer require peteleco/laravel-model-status
 ```
 
 You must publish the migration with:
